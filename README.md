@@ -2,10 +2,12 @@
 ---
 
 # 🍔 Algo que pedir – React + TypeScript Web App
+*Trabajo práctico de la materia Algoritmos III - Tecnicatura en Programación Informática - UNSAM 2C 2025.*
 
 **Algo que pedir** es una aplicación web moderna y responsive construida con **React**, **TypeScript** y **Vite**, que simula la experiencia de una app de pedidos de comida a domicilio.
 
 El proyecto permite explorar restaurantes y productos, agregar ítems a un carrito y sentar las bases para futuras funcionalidades como la realización de pedidos. Está pensada como un proyecto académico y de portfolio, enfocada en buenas prácticas, escalabilidad y tipado fuerte.
+
 
 ---
 
