@@ -16,6 +16,7 @@ El proyecto permite explorar restaurantes y productos, agregar ítems a un carri
 ✔️ Interfaz responsive desarrollada con React y TypeScript </br>
 ✔️ Arquitectura basada en componentes reutilizables </br>
 ✔️ Navegación entre vistas mediante rutas (home, listado de restaurantes, detalle de productos, etc.) </br>
+✔️ Service responsable de la comunicación RESTful con la API backend <br/>
 ✔️ Configuración de ESLint para mantener consistencia en el código </br>
 ✔️ Base de tests end-to-end con Playwright y tests de integración con Vitest </br>
 ✔️ Exploracion de libreria de estilos MaterialUI </br>
