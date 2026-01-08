@@ -1,73 +1,75 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+# 🍔 Algo que pedir – React + TypeScript Web App
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Algo que pedir** es una aplicación web moderna y responsive construida con **React**, **TypeScript** y **Vite**, que simula la experiencia de una app de pedidos de comida a domicilio.
 
-## React Compiler
+El proyecto permite explorar restaurantes y productos, agregar ítems a un carrito y sentar las bases para futuras funcionalidades como la realización de pedidos. Está pensada como un proyecto académico y de portfolio, enfocada en buenas prácticas, escalabilidad y tipado fuerte.
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+---
 
-## Expanding the ESLint configuration
+## 🧠 Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+✔️ Interfaz responsive desarrollada con React y TypeScript </br>
+✔️ Arquitectura basada en componentes reutilizables </br>
+✔️ Navegación entre vistas mediante rutas (home, listado de restaurantes, detalle de productos, etc.) </br>
+✔️ Configuración de ESLint para mantener consistencia en el código </br>
+✔️ Base de tests end-to-end con Playwright y tests de integración con Vitest </br>
+✔️ Exploracion de libreria de estilos MaterialUI </br>
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 💻 Stack Tecnológico
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+| Tecnología            | Uso                               |
+| --------------------- | --------------------------------- |
+| **React**             | Construcción de la interfaz       |
+| **TypeScript**        | Tipado estático, seguridad y logica de negocio       |
+| **ESLint**            | Estilo y calidad de código        |
+| **Playwright**        | Tests end-to-end                  |
+| **Vitest**            | Tests de integración              |
+| **React Router**      | Ruteo del lado del cliente        |
+| **MaterialUI**        | Componentes reutilizables         |
+
+---
+
+## 🚀 Instalación
+
+### 🧩 Requisitos
+
+Tener instalado **Node.js (>= 18.x)** y **npm** o **yarn**.
+
+```bash
+git clone https://github.com/CatalinaCorrea-png/Algo-que-pedir-react-typescript-2025.git
+cd Algo-que-pedir-react-typescript-2025
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🛠️ Desarrollo
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### ▶️ Levantar el proyecto
+
+```bash
+npm run dev
 ```
+
+Abrí tu navegador en 👉 [http://localhost:5173](http://localhost:5173)
+El proyecto cuenta con recarga automática al modificar el código.
+
+
+---
+### 💻 **Desarrolladores**
+- Catalina Correa
+- Nicolas Cernadas
+- Dana Cossettini Reyes 
+- Maximiliano Andres Bianchimano 
+- Fernanda Perez
+
+---
+### 📬 **Contacto**
+
+👩‍💻 **Catalina Correa** – Estudiante de informática / Desarrolladora - 📧 catalinayazmincorrea@gmail.com
+
